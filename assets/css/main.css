@@ -1,0 +1,33 @@
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#hero {
+  background-color: #eee;
+  background-image: url(../img/hero_bg.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 427px;
+}
+
+.hero-content {
+  color: #fff;
+  max-width: 560px;
+  text-align: center;
+}
+
+.hero-text {
+  font-size: 18px;
+}
+
+.navbar-custom {
+  background-color: transparent;
+  border-color: none;
+}
