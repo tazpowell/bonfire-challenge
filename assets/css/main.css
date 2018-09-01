@@ -31,3 +31,36 @@ h1 {
   background-color: transparent;
   border-color: none;
 }
+
+.selector {
+  box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 519px;
+}
+
+.selector-btn {
+  background-color: #696579;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  line-height: 60px;
+  height: 60px;
+  width: 173px;
+}
+
+.selector-btn > .active {
+  background-color: #fdecca;
+  color: #696579;
+}
+
+.selector-btn:hover {
+  background-color: #fdecca;
+  font-weight: bold;
+  color: #696579;
+}
