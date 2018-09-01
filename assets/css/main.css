@@ -54,8 +54,9 @@ h1 {
   width: 173px;
 }
 
-.selector-btn > .active {
+.selector-btn.active {
   background-color: #fdecca;
+  font-weight: bold;
   color: #696579;
 }
 
@@ -63,4 +64,77 @@ h1 {
   background-color: #fdecca;
   font-weight: bold;
   color: #696579;
+}
+
+#showcase {
+  background-image: linear-gradient(#edf0f5, #fff);
+}
+
+.case-study-box {
+  background-color: #fff;
+  border-radius: 3px;
+  color: #696579;
+  height: 280px;
+  min-width: 330px;
+  margin: 20px;
+  padding-top: 90px;
+  box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+}
+
+.case-study-box:hover {
+  border-top: 3px solid #d83a6a;
+  position: relative;
+  transform: translate(0, -12px);
+  padding-top: 40px;
+}
+
+.case-study-box:hover .case-study-title {
+  color: #caa97d;
+}
+
+.case-study-box:hover .case-study-subtext {
+  color: #1d314c;
+}
+
+.case-study-box:hover .view-case-study-btn {
+  opacity: 1;
+  margin-top: 40px;
+}
+
+.case-study-title {
+  color: #aaaeb6;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.case-study-subtext {
+  color: #696579;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.view-case-study-btn {
+  background-color: #696579;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: 57px;
+  width: 278px;
+  border-radius: 1px;
+  text-align: center;
+  border: none;
+  display: table;
+  margin: 0 auto;
+  transition: opacity 0.5s ease-out;
+  opacity: 0;
+  cursor: pointer;
 }
