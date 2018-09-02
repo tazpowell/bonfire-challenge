@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Bonfire Sample Project</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <meta name="T Powell" content="name">
     <meta name="description" content="A responsive sample website">
     <meta name="keywords" content="keywords,here">
@@ -20,13 +21,24 @@
 
   </head>
   <body id="bootstrapOverride">
-    <nav class="navbar navbar-expand navbar-dark navbar-custom">
+    <nav class="nav navbar-custom">
       <a class="navbar-brand" href="#">LOGO<span class="logo-design">DESIGN</span></a>
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <ul class="nav navbar-links-custom">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Away</a>
+      </li>
+    </ul>
+    </nav>
+    <!-- <nav class="navbar navbar-expand navbar-dark navbar-custom">
+      <a class="navbar-brand" href="#">LOGO<span class="logo-design">DESIGN</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button> -->
+      </button>
 
-      <div class="" id="navbarToggler">
+      <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav mt-2 mt-lg-0">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -38,20 +50,23 @@
         </ul>
 
       </div>
-    </nav>
+    </nav> -->
 
-    <section id="hero">
+    <section id="hero" class="container-fluid">
       <div class="hero-content">
         <h1>Why Hello There</h1>
         <p class="hero-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</p>
       </div>
     </section>
-    <div id="caseStudyFilter">
-      <div id="showAll" class="selector-btn active">Show All</div>
-      <div id="showEven" class="selector-btn">Show Even</div>
-      <div id="showOdd" class="selector-btn">Show Odd</div>
+    <div class="container-fluid">
+      <div id="caseStudyFilter" >
+        <div id="showAll" class="selector-btn active">Show All</div>
+        <div id="showEven" class="selector-btn">Show Even</div>
+        <div id="showOdd" class="selector-btn">Show Odd</div>
+      </div>
     </div>
-    <section id="showcase" class="container">
+
+    <section id="showcase" class="container-fluid">
       <div class="row">
         <div class="col case-study-box" data-id="1">
           <h4 class="case-study-title">Box Number 1</h4>

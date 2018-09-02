@@ -38,6 +38,7 @@ h1 {
   margin-top: 40px;
   padding-right: 30px;
   padding-left: 30px;
+  justify-content: flex-end;
 }
 
 .navbar-brand {
@@ -45,6 +46,12 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
+  position: absolute;
+  left: 30px;
+}
+
+.navbar-brand:hover {
+  color: #fff;
 }
 
 .logo-design {
@@ -81,13 +88,10 @@ h1 {
   margin-top: -30px;
   margin-left: auto;
   margin-right: auto;
+  width: 90vw;
   max-width: 519px;
   left: 50%;
   transform: translate(-50%, 0);
-}
-
-.selector {
-
 }
 
 .selector-btn {
@@ -181,7 +185,8 @@ h1 {
   font-weight: 600;
   text-transform: uppercase;
   height: 57px;
-  width: 278px;
+  width: 80vw;
+  max-width: 278px;
   border-radius: 1px;
   text-align: center;
   border: none;
@@ -190,4 +195,45 @@ h1 {
   transition: opacity 0.5s ease-out;
   opacity: 0;
   cursor: pointer;
+}
+
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    left: calc(50% - 95px);
+  }
+
+  .navbar-custom {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .navbar-links-custom {
+    margin-top: 50px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .case-study-box {
+    margin: inherit;
+    margin-bottom: 20px;
+    min-width: auto;
+  }
+
+  #showcase {
+    padding-top: 80px;
+  }
+
+  .selector-btn {
+    font-size: 14px;
+  }
 }
