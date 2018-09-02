@@ -8,9 +8,9 @@ $(() => {
 const onFilterCaseStudies = function (event) {
   event.preventDefault()
   console.log('event is ', event)
-  const selectAll = $('#showcase').find('.case-study-item')
-  const selectEvens = $('#showcase').find('.case-study-item:odd')
-  const selectOdds = $('#showcase').find('.case-study-item:even')
+  const selectAll = $('#showcase').find('.case-study-filter')
+  const selectEvens = $('#showcase').find('.case-study-filter:odd')
+  const selectOdds = $('#showcase').find('.case-study-filter:even')
 
   if (event.target.id === "showAll"){
     selectAll.show()
