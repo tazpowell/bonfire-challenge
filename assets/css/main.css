@@ -29,7 +29,26 @@ h1 {
 
 .navbar-custom {
   background-color: transparent;
-  border-color: none;
+  position: absolute;
+  width: 100%;
+  margin-top: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#bootstrapOverride .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 15px;
+}
+
+#bootstrapOverride .nav-link:hover {
+  color: #fdecca;
+}
+
+#bootstrapOverride .nav-item.active > .nav-link {
+  color: #fdecca;
 }
 
 .selector {
