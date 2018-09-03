@@ -212,7 +212,7 @@ h1 {
 
 @media (max-width: 767.98px) {
   .navbar-brand {
-    left: calc(50% - 88px);
+    left: calc(50% - 99px);
   }
 
   .navbar-custom {
