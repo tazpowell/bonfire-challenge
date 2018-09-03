@@ -134,6 +134,10 @@ h1 {
   padding-bottom: 60px;
 }
 
+.case-study-filter a:hover {
+  text-decoration: none;
+}
+
 .case-study-box {
   background-color: #fff;
   border-radius: 3px;
@@ -160,6 +164,7 @@ h1 {
 .case-study-box:hover .case-study-subtext {
   color: #1d314c;
   font-weight: bold;
+  margin-bottom: 62px;
 }
 
 .case-study-box:hover .view-case-study-btn {
