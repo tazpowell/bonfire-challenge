@@ -198,7 +198,7 @@ h1 {
   font-weight: 600;
   text-transform: uppercase;
   height: 57px;
-  width: 80vw;
+  width: 70vw;
   max-width: 278px;
   border-radius: 1px;
   text-align: center;
@@ -227,6 +227,10 @@ h1 {
   .hero-content h1 {
     font-size: 30px;
     margin-top: 30px;
+  }
+
+  .view-case-study-btn {
+    opacity: 1;
   }
 }
 
